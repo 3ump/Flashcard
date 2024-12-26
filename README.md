@@ -25,12 +25,12 @@ pip install tkinter
 Run the application:python main.py
 Use the ✓ (Known) button to mark a word as learned.
 Use the ✗ (Unknown) button to move to the next word.
-The app saves progress in data/words_to_learn.csv.
+The app saves progress in _data/words_to_learn.csv._
 
 **CUSTOMIZATION**
 To change the dataset, replace "data/turkish.csv" with a new file following the same format.
 Adjust the flip timer duration in the main.py file by modifying this line:
-"flip_timer = window.after(3000, func=flip_card)  # Time in milliseconds"
+_"flip_timer = window.after(3000, func=flip_card) _ # Time in milliseconds_"_
 
 **LICENSE**
 This project is open-source. Feel free to use and modify it to suit your needs.
